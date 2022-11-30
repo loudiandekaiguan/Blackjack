@@ -26,7 +26,6 @@ public class User48 extends Role48 {
     public List<Card48> peekAI(){
         List<Card48> cards = new ArrayList<>();
         cards.add(ai.getHandCards().get(0));
-//        cards.add(ai.getHandCards().get(1));
         return cards;
     }
 

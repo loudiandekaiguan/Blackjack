@@ -12,7 +12,6 @@ import java.util.List;
  * @Descript:
  */
 public class Clone48 {
-    public Deck48 deck;
     public int userPoint;
     public int userSumA;
     public List<Card48> userHandCards;

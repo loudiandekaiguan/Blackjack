@@ -40,6 +40,7 @@ public class Start48 extends Template48 {
                     break;
                 case 4:
                     super.rollBack();
+                    System.out.print("user:");
                     user.show();
                     System.out.print("    " + ai.getClass().getSimpleName() + ":");
                     ai.show();
